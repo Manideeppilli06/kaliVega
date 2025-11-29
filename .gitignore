@@ -1,0 +1,41 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub/
+build/
+
+# Flutter build outputs in nested folders
+**/build/
+
+# iOS
+ios/Flutter/.last_build_id
+iosi/Pods/
+ios/Podfile.lock
+
+# Android
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# VSCode
+.vscode/
+
+# MacOS
+macos/Flutter/ephemeral/
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# Others
+*.log
+*.tmp
+.cache/
