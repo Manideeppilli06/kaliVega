@@ -1,41 +1,26 @@
-# Flutter/Dart/Pub related
-.dart_tool/
-.packages
-.pub/
-build/
+# Flutter project inside flutter_app/base
 
-# Flutter build outputs in nested folders
-**/build/
+flutter_app/base/build/
+flutter_app/base/.dart_tool/
+flutter_app/base/.pub-cache/
+flutter_app/base/.packages
 
-# iOS
-ios/Flutter/.last_build_id
-iosi/Pods/
-ios/Podfile.lock
+# Android build files
+flutter_app/base/android/.gradle/
+flutter_app/base/android/.idea/
+flutter_app/base/android/local.properties
 
-# Android
-android/.gradle/
-android/.idea/
-android/local.properties
-android/app/debug/
-android/app/profile/
-android/app/release/
+# iOS build files
+flutter_app/base/ios/Pods/
+flutter_app/base/ios/Flutter/.last_build_id
+
+# Linux/MacOS/Windows build outputs
+flutter_app/base/linux/flutter/ephemeral/
+flutter_app/base/macos/Flutter/ephemeral/
+flutter_app/base/windows/flutter/ephemeral/
 
 # VSCode
 .vscode/
 
-# MacOS
-macos/Flutter/ephemeral/
-
-# Linux
-linux/flutter/ephemeral/
-
-# Windows
-windows/flutter/ephemeral/
-
-# Web
-web/.dart_tool/
-
-# Others
+# Misc
 *.log
-*.tmp
-.cache/
